@@ -1,0 +1,103 @@
+/* styles.css for Aarya Clothes */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.banner {
+  background: linear-gradient(135deg, #0d0d0d, #1f1f1f);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+section {
+  padding: 30px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+select, input, button {
+  margin-top: 10px;
+  padding: 8px;
+  width: 100%;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #0d6efd;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0b5ed7;
+}
+
+#cart-items li {
+  margin-bottom: 10px;
+  list-style-type: none;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
